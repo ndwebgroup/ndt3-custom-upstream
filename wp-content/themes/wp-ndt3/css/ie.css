@@ -1,0 +1,30 @@
+/*************************************************************************************
+ * IE <= 9
+ * Updated: 2019-01-24
+ ************************************************************************************/
+
+ @media screen {
+  body {font-family:"Libre Franklin", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;}
+  h1,h2,h3,h4,h5,h6,
+  .site-title {color:#0c2340; font-family:GPC, "Arial Narrow", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;}
+  a {color:#0c2340;}
+  th, thead th {background-color:#0c2340;}
+  .site-header { background:#0c2340; overflow:auto; padding:1rem 5vw; }
+  .site-parent { color:#d2d2d2;}
+  .mark-header { float:right; max-width:200px; }
+  .nav-header { clear:right; margin-top:0; }
+  .site-content { }
+  .page-image { margin:0; max-width:100%; }
+  .page-main {float:right; width:75%;}
+    .full-width .page-main {width:100%;}
+  .home-primary { max-width:100%; }
+  .grid > * { float:left; }
+  .grid-md-2 > *, .grid-lg-2 > *, .grid-xl-2 > * { width:50%; }
+  .grid-md-3 > *, .grid-lg-3 > *, .grid-xl-3 > * { width:33.3%; }
+  .grid-md-4 > *, .grid-lg-4 > *, .grid-xl-4 > * { width:25%; }
+  .grid-md-5 > *, .grid-lg-5 > *, .grid-xl-5 > * { width:20%; }
+  .grid-md-6 > *, .grid-lg-6 > *, .grid-xl-6 > * { width:16.6%; }
+  .page-sidebar {float:left; width:23%; margin-right:2%;}
+  .page-title {border-bottom:2px solid #ae9142;}
+  .site-footer { clear:both; background:#0c2340; }
+}

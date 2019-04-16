@@ -1,0 +1,99 @@
+/* University Template over-ride
+   Author: Marketing Communications
+   ----------------------------------------------------*/
+
+@media only screen {
+  /* Site Title */
+  .site-tagline {margin:0; color:var(--gray-light);}
+
+  /* Navigation */
+  .nav-site .sub-menu {display:none;}
+  .nav-site .active > .sub-menu {display:block;}
+
+  .nav-links {overflow:hidden; margin:2rem 0; padding:2rem 1rem; border:1px solid var(--gray-light); border-width:3px 0;}
+    .nav-previous:before {content:'< ';}
+    .nav-next:after {content:' >';}
+
+  /* Sidebar */
+  .page-sidebar hr {margin:3rem 0;}
+  .widget-title {font-size:1.2rem; font-family:var(--font-default);}
+  .widget ul {margin-top:0;}
+
+  /* Posts */
+  .post {margin-bottom:4rem;}
+  .entry-footer span {margin-right:0.5rem;}
+
+  /* Comments */
+  .comment-list {margin:0; padding:0; list-style:none;}
+  .comment-metadata {margin:0.5rem 0;}
+  .comment-metadata a:last-child,
+  .logged-in-as a:last-child {margin-left:0.5rem;}
+
+}
+/* 480px
+----------------------------------------------------*/
+@media only screen and (min-width:30em) {
+  .wp-block-image .alignright {float:right; margin:0 0 1rem 2rem;}
+  .wp-block-image .alignleft {float:left; margin:0 2rem 1rem 0;}
+  .wp-block-image .alignright,
+  .wp-block-image .alignleft {max-width:46%;}
+}
+
+/* 768px
+----------------------------------------------------*/
+@media only screen and (min-width:48em) {
+  /* Logo */
+  .custom-logo-link {display:block; max-width:250px; max-height:80px; margin-top:0.25rem;}
+    .custom-logo-link img {max-height:inherit; max-width:inherit;}
+
+  /* Page Header Image */
+  .page-header.clover::before {
+    background-image:url('images/hdr-clover-1200.jpg');
+  }
+  .page-header.dome::before {
+    background-image:url('images/hdr-dome-1200.jpg');
+  }
+  .page-header.vinewall::before {
+    background-image:url('images/hdr-vinewall-1200.jpg');
+  }
+
+}
+
+/* 960px
+----------------------------------------------------*/
+@media only screen and (min-width:60em) {
+  /* Page Header Image */
+  .page-header.clover::before {
+    background-image:url('images/hdr-clover-1600.jpg');
+  }
+  .page-header.dome::before {
+    background-image:url('images/hdr-dome-1600.jpg');
+  }
+  .page-header.vinewall::before {
+    background-image:url('images/hdr-vinewall-1600.jpg');
+  }
+}
+
+/* 1280px
+----------------------------------------------------*/
+@media only screen and (min-width:80em) {
+
+}
+
+/* 1600px
+----------------------------------------------------*/
+@media only screen and (min-width:100em) {
+
+}
+
+/* 1920px
+----------------------------------------------------*/
+@media only screen and (min-width:120em) {
+
+}
+
+/* Print
+----------------------------------------------------*/
+@media print {
+
+}
