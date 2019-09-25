@@ -128,10 +128,10 @@ add_action( 'widgets_init', 'remove_default_widgets' );
 function ndt3_scripts() {
   wp_enqueue_style( 'ndt3-style', get_stylesheet_uri() );
   wp_enqueue_style( 'ndt3-ndt', 'https://conductor.nd.edu/stylesheets/themes/ndt/v3/ndt.css', array(), '20190403', 'all' );
-  wp_enqueue_style( 'ndt3-site', get_template_directory_uri() . '/css/site.css', array(), '20190403', 'all' );
+  wp_enqueue_style( 'ndt3-theme', get_template_directory_uri() . '/css/theme.css', array(), '20190403', 'all' );
 
   wp_enqueue_script( 'ndt3-ndt', 'https://conductor.nd.edu/javascripts/themes/ndt/v3/ndt.js', array(), '20190403', true );
-  wp_enqueue_script( 'ndt3-site', get_template_directory_uri() . '/js/site.js', array(), '20190403', true );
+  wp_enqueue_script( 'ndt3-theme', get_template_directory_uri() . '/js/theme.js', array(), '20190403', true );
   //wp_enqueue_script( 'ndt3-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
   //wp_enqueue_script( 'ndt3-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

@@ -6,7 +6,12 @@
   /* Site Title */
   .site-tagline {margin:0; color:var(--gray-light);}
 
-  /* Navigation */
+  /* Navigation (Default Navigation) */
+  .nav-site ul ul {display:none;}
+  .nav-site .current_page_ancestor > ul,
+  .nav-site .current_page_item > ul {display:block;}
+
+  /* Navigation (Custom Navigation) */
   .nav-site .sub-menu {display:none;}
   .nav-site .active > .sub-menu {display:block;}
 
